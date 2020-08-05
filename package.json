@@ -1,0 +1,27 @@
+{
+  "name": "geocoding-osm",
+  "version": "0.1.0",
+  "description": "Geocoding Service uses OpenStreetMap API",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanislavpoleshuk/geocoding-osm.git"
+  },
+  "keywords": ["osm", "typescript", "geocoding", "OpenStreetMap"],
+  "author": "Stanislav Poleshuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stanislavpoleshuk/geocoding-osm/issues"
+  },
+  "homepage": "https://github.com/stanislavpoleshuk/geocoding-osm#readme"
+}
