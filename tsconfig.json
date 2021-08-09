@@ -1,17 +1,30 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "lib": ["es2017", "es7", "es6", "dom"],
-    "module": "commonjs",
-    "strict": true,
+    "outDir": "lib/",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
     "declaration": true,
-    "outDir": "dist",
+    "jsx": "react",
+    "lib": ["es2017", "dom"],
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": "./src"
+    "strict": true,
+    "pretty": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "strictPropertyInitialization": false,
+    "noUnusedLocals": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedParameters": true
   },
+  "include": ["src"],
   "exclude": [
-    "node_modules"
+    "**/*.spec.ts",
+    "**/*.spec.tsx"
   ]
 }

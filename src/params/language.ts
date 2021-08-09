@@ -1,1 +1,0 @@
-export type Languages = 'ru' | 'en' | 'ro' | 'fr' | 'ua' | 'ar' | 'es';
