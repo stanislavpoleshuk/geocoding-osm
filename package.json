@@ -8,24 +8,24 @@
     "axios": "^0.19.2"
   },
   "devDependencies": {
-    "ts-node": "^10.2.0",
-    "tslib": "^2.3.0",
-    "ts-jest": "^27.0.4",
-    "jest": "^27.0.6",
-    "typescript": "^3.9.5",
+    "@testing-library/jest-dom": "^5.11.4",
     "@typescript-eslint/eslint-plugin": "^4.1.1",
     "@typescript-eslint/parser": "^4.28.0",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jest-dom": "^3.9.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
-    "eslint-plugin-jest-dom": "^3.9.0",
     "eslint-plugin-standard": "^5.0.0",
+    "jest": "^27.0.6",
     "prettier": "^2.3.2",
-    "@testing-library/jest-dom": "^5.11.4"
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.2.0",
+    "tslib": "^2.3.0",
+    "typescript": "^3.9.5"
   },
   "scripts": {
     "lint": "eslint --fix --cache --cache-location ./node_modules/.cache/eslint .",
@@ -37,7 +37,12 @@
     "type": "git",
     "url": "git+https://github.com/stanislavpoleshuk/geocoding-osm.git"
   },
-  "keywords": ["osm", "typescript", "geocoding", "OpenStreetMap"],
+  "keywords": [
+    "osm",
+    "typescript",
+    "geocoding",
+    "OpenStreetMap"
+  ],
   "author": "Stanislav Poleshuk",
   "license": "MIT",
   "bugs": {
